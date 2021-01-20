@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h1>{{ msg | addName}}</h1>  
+    <h1>{{ msg|addName}}</h1>  
   </div>
 </template>
 
@@ -12,7 +12,7 @@ export default {
   },
   filters:{
     addName(value){
-      return `${value} Clarence`
+      return `${value} Clarence`;
     }
   }
 }
